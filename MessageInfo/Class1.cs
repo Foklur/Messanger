@@ -1,6 +1,6 @@
 ﻿namespace MessageInfo
 {
-    public class Class1
+    public class MessageInfo
     {
 
     }
