@@ -8,7 +8,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="3275434.jpg" />
+    <None Remove="login.png" />
+    <None Remove="signup.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MessageInfo\MessageInfo.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="3275434.jpg" />
+    <Resource Include="login.png" />
+    <Resource Include="signup.png" />
   </ItemGroup>
 
 </Project>
