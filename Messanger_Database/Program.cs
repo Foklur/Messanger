@@ -10,6 +10,19 @@ namespace Messanger_Database
     {
         static void Main(string[] args)
         {
+            //test
+/*            using (var context = new Users_Model())
+            {
+                var user = new User
+                {
+                    Nickname = "TestUser",
+                    Login = "testuser@example.com",
+                    Password = 123456,
+                    Admin = false
+                };
+                context.Users.Add(user);
+                context.SaveChanges(); 
+            }*/
         }
     }
 }
