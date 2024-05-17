@@ -24,5 +24,10 @@ namespace MessangerClient
         {
             InitializeComponent();
         }
+
+        private void loginTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
