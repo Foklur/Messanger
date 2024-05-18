@@ -9,6 +9,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MessageInfo\MessageInfo.csproj" />
+    <ProjectReference Include="..\MessangerChatWindow\MessangerChatWindow.csproj" />
+    <ProjectReference Include="..\Messanger_Database_Library\Messanger_Database_Library.csproj" />
   </ItemGroup>
 
 </Project>
