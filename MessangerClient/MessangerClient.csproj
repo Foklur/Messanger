@@ -8,6 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\paperplane_dribbble.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\paperplane_dribbble.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MessageInfo\MessageInfo.csproj" />
   </ItemGroup>
 

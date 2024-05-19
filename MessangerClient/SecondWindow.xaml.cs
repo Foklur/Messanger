@@ -16,23 +16,13 @@ using System.Windows.Shapes;
 namespace MessangerClient
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for SecondWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class SecondWindow : Page
     {
-        public MainWindow()
+        public SecondWindow()
         {
             InitializeComponent();
-        }
-
-        private void myButton_Click()
-        {
-
-        }
-
-        private void nickNameTextBox_TextChanged()
-        {
-
         }
     }
 }
