@@ -18,7 +18,7 @@
             <Label Content="Login" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0"/>
 
         <TextBox x:Name="nickNameTextBox" Margin="186,22,206,0" Grid.Row="1" Height="25"  FontFamily="Bahnschrift SemiBold" FontSize="22"/>
-        <TextBox x:Name="loginTextBox" Margin="186,22,206,0" Grid.Row="2" Height="25"  FontFamily="Bahnschrift SemiBold" FontSize="22"/>
+        <TextBox x:Name="loginTextBox" Margin="186,22,206,0" Grid.Row="2" Height="25"  FontFamily="Bahnschrift SemiBold" FontSize="22"/>z
         <TextBox x:Name="passwordTextBox" Margin="186,22,206,0" Grid.Row="3" Height="25"  FontFamily="Bahnschrift SemiBold" FontSize="22"/>
         <Button Click="SignUpButton_Click" Content="Sign up" HorizontalAlignment="Center" Width="288" Margin="0,35,0,0" Grid.Row="4" Height="30" FontFamily="Bahnschrift SemiBold" FontSize="22"/>
     </Grid>
