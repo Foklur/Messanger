@@ -8,8 +8,11 @@
       d:DesignHeight="550" d:DesignWidth="800"
       Title="SecondWindow" WindowStyle="None">
 
-        <Grid Background="#ffea00">
-            <Button Style="{StaticResource RoundedButtonStyle}" Content="Join to group " HorizontalAlignment="Left" Width="60" Margin="585,10,0,520" Height="20" FontFamily="Copperplate Gothic Bold" FontSize="6" BorderThickness="0" Padding="0"/>
+        <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/bacground.jpg"/>
+        </Grid.Background>
+        <Button Style="{StaticResource RoundedButtonStyle}" Content="Join to group " HorizontalAlignment="Left" Width="60" Margin="585,10,0,520" Height="20" FontFamily="Copperplate Gothic Bold" FontSize="6" BorderThickness="0" Padding="0"/>
             <Button Style="{StaticResource RoundedButtonStyle}" Content="Create group" HorizontalAlignment="Left" Width="60" Margin="650,10,0,520" Height="20" FontFamily="Copperplate Gothic Bold" FontSize="6" BorderThickness="0" Padding="0"/>
             <Button Style="{StaticResource RoundedButtonStyle}" Content="Create chat" HorizontalAlignment="Left" Width="60" Margin="715,10,0,520" Height="20" FontFamily="Copperplate Gothic Bold" FontSize="6" BorderThickness="0" Padding="0"/>
             <Button HorizontalAlignment="Left" Width="53" Margin="722,506,0,10" FontFamily="Copperplate Gothic Bold" FontSize="10" BorderThickness="0">
@@ -24,9 +27,9 @@
             </Button>
             <Button Style="{StaticResource RoundedButtonStyle}" Visibility="Hidden" Content="Accept" HorizontalAlignment="Left" Width="60" Margin="180,10,0,520" Height="20" FontFamily="Copperplate Gothic Bold" FontSize="6" BorderThickness="0" Padding="0"/>
             <Button Style="{StaticResource RoundedButtonStyle}" Visibility="Hidden" Content="Block" HorizontalAlignment="Left" Width="60" Margin="245,10,0,520" Height="20" FontFamily="Copperplate Gothic Bold" FontSize="6" BorderThickness="0" Padding="0"/>
-            <TextBox  x:Name="nickNameTextBox" Margin="180,506,80,10"  FontFamily="Bahnschrift SemiBold" FontSize="22" BorderThickness="0" />
-            <ListBox Margin="0,41,651,0" Background="#FF66BCFF" BorderBrush="#FF66BCFF"/>
-            <ListBox Margin="180,41,25,70" Background="#FF66BCFF" BorderBrush="#FF66BCFF"/>
+        <TextBox  x:Name="nickNameTextBox" Margin="180,506,80,10"  FontFamily="Bahnschrift SemiBold" FontSize="22" BorderThickness="0" Background="White"/>
+        <ListBox Margin="0,41,651,0" Opacity="0.6" Background="Gray" BorderBrush="Gray"/>
+        <ListBox Margin="180,41,25,70" Opacity="0.6" Background="Gray" BorderBrush="Gray"/>
 
         </Grid>
     </Window>

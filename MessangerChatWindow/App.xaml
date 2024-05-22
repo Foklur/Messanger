@@ -39,8 +39,7 @@
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
-            <Setter Property="Background" Value="#FF66BCFF"/>
-            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="Background" Value="White"/>
             <Setter Property="BorderThickness" Value="2"/>
             <Setter Property="Padding" Value="10,5"/>
         </Style>
