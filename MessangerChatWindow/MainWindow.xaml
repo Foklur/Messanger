@@ -1,12 +1,36 @@
 ﻿<Window x:Class="MessangerChatWindow.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:MessangerChatWindow"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Label Content="Welcome!" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48"/>
-    </Grid>
-</Window>
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MessangerChatWindow"
+      mc:Ignorable="d" 
+      d:DesignHeight="550" d:DesignWidth="800"
+      Title="SecondWindow" WindowStyle="None">
+
+        <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/bacground.jpg"/>
+        </Grid.Background>
+        <Button Style="{StaticResource RoundedButtonStyle}" Content="Join to group " HorizontalAlignment="Left" Width="60" Margin="585,10,0,520" Height="20" FontFamily="Copperplate Gothic Bold" FontSize="6" BorderThickness="0" Padding="0"/>
+            <Button Style="{StaticResource RoundedButtonStyle}" Content="Create group" HorizontalAlignment="Left" Width="60" Margin="650,10,0,520" Height="20" FontFamily="Copperplate Gothic Bold" FontSize="6" BorderThickness="0" Padding="0"/>
+            <Button Style="{StaticResource RoundedButtonStyle}" Content="Create chat" HorizontalAlignment="Left" Width="60" Margin="715,10,0,520" Height="20" FontFamily="Copperplate Gothic Bold" FontSize="6" BorderThickness="0" Padding="0"/>
+            <Button HorizontalAlignment="Left" Width="53" Margin="722,506,0,10" FontFamily="Copperplate Gothic Bold" FontSize="10" BorderThickness="0">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/555.jpg"/>
+                </Button.Background>
+            </Button>
+            <Button HorizontalAlignment="Left" Width="128" Margin="10,0,0,514" FontFamily="Copperplate Gothic Bold"  FontSize="10" BorderThickness="0">
+                <Button.Background>
+                    <ImageBrush ImageSource="Images/bac.png"  TileMode="Tile" Stretch="Fill"/>
+                </Button.Background>
+            </Button>
+            <Button Style="{StaticResource RoundedButtonStyle}" Visibility="Hidden" Content="Accept" HorizontalAlignment="Left" Width="60" Margin="180,10,0,520" Height="20" FontFamily="Copperplate Gothic Bold" FontSize="6" BorderThickness="0" Padding="0"/>
+            <Button Style="{StaticResource RoundedButtonStyle}" Visibility="Hidden" Content="Block" HorizontalAlignment="Left" Width="60" Margin="245,10,0,520" Height="20" FontFamily="Copperplate Gothic Bold" FontSize="6" BorderThickness="0" Padding="0"/>
+        <TextBox  x:Name="nickNameTextBox" Margin="180,506,80,10"  FontFamily="Bahnschrift SemiBold" FontSize="22" BorderThickness="0" Background="White"/>
+        <ListBox Margin="0,41,651,0" Opacity="0.6" Background="Gray" BorderBrush="Gray"/>
+        <ListBox Margin="180,41,25,70" Opacity="0.6" Background="Gray" BorderBrush="Gray"/>
+
+        </Grid>
+    </Window>
+
