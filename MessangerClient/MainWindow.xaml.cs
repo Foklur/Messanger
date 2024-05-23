@@ -25,17 +25,6 @@ namespace MessangerClient
         {
             InitializeComponent();
         }
-
-        private void myButton_Click()
-        {
-
-        }
-
-        private void nickNameTextBox_TextChanged()
-        {
-        
-        }
-
         private void SignUpButton_Click(object sender, RoutedEventArgs e)
         {
             try
