@@ -19,7 +19,7 @@ namespace Messanger_Database
         {
             base.OnConfiguring(optionsBuilder);
 
-            optionsBuilder.UseSqlServer(@"data source=DESKTOP-9KTT33H\SQLEXPRESS;
+            optionsBuilder.UseSqlServer(@"data source=(localdb)\MSSQLLocalDB;
                                           initial catalog=Users_Database;
                                           integrated security=True;
                                           Connect Timeout=2;

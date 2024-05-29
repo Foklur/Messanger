@@ -13,16 +13,59 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MessangerChatWindow
+
+
+using MessangerChatWindow;
+
+namespace MessengerChatWindow
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+        private JoinGroupWindow joinGroupWindow;
+        private CreateGroupWindow createGroupWindow;
+        private CreateChatWindow createChatWindow;
+
         public MainWindow()
         {
-            InitializeComponent();
+            joinGroupWindow = new JoinGroupWindow();
+            createGroupWindow = new CreateGroupWindow();
+            createChatWindow = new CreateChatWindow();
         }
+
+
+
+        private void JoinToGroupButton_Click(object sender, RoutedEventArgs e)
+        {
+            joinGroupWindow.ShowDialog();
+        }
+
+        private void CreateGroupButton_Click(object sender, RoutedEventArgs e)
+        {
+            createGroupWindow.ShowDialog();
+        }
+
+        private void CreateChatButton_Click(object sender, RoutedEventArgs e)
+        {
+            createChatWindow.ShowDialog();
+        }
+
+        private void AcceptButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Успішно прийнято!");
+        }
+
+
+        private void BlockButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("User blocked successfully."); 
+        }
+
     }
 }
+
+
+
+
+
+
+

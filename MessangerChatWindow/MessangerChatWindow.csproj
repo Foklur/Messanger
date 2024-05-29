@@ -13,6 +13,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="C:\Users\dev\Downloads\JoinGroupWindow.cs" Link="JoinGroupWindow.cs" />
+    <Compile Include="C:\Users\dev\Downloads\MainWindow.xaml" Link="MainWindow.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Images\555.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
